@@ -1,11 +1,107 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Nirdesh Timilsina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirdesh Timilsina - Portfolio</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F4F8FB; /* Light grayish blue */
+            color: #333;
+        }
+
+        /* Header styling */
+        header {
+            text-align: center;
+            padding: 50px;
+            background-color: #1E90FF; /* Dodger blue */
+            color: white;
+        }
+
+        /* Nepal flag container */
+        .flag-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .flag-container img {
+            width: 120px;
+            height: auto;
+            animation: wave 1s infinite alternate;
+        }
+
+        /* Flag waving animation */
+        @keyframes wave {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(5deg); }
+        }
+
+        /* Navigation bar styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4682B4; /* Steel blue */
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section styling */
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+        section h2 {
+            color: #1E90FF; /* Dodger blue for headings */
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4682B4; /* Steel blue */
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h2 style = "text-align:center" color = brown> hello! good afternoon<br> Site will be functional soon.</h2>
-    <h1 style="text-align: center;">Site under Construction<br>  </h1>
-    <h3 style = "text-align:center" color = #ADEBB3>finally problem solved... thanks to satyam</h3>
-    
+    <header>
+        <h1>Hi, I'm Nirdesh Timilsina.</h1>
+        <p>Welcome to my personal website!<br>Special thanks: Satyam Lamsal</p>
+        <div class="flag-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg" alt="Waving Nepal Flag">
+        </div>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Soon...</p>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Soon...</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Reach me at: <a href="mailto:080bct049.nirdesh@pcampus.edu.np">080bct049.nirdesh@pcampus.edu.np</a></p>
+    </section>
+    <footer>
+        <p>© 2024 Nirdesh Timilsina. All rights reserved.</p>
+    </footer>
 </body>
 </html>
